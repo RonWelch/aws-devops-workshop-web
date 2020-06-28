@@ -25,6 +25,7 @@ class App extends Component {
     return (
       <form onSubmit={this.loginUser}>
         <h1>An Awesome Form on React</h1>
+        <h2>Updated by CircleCI</h2>
         <label htmlFor="email">
           <span>Email:</span>
           <input onChange={this.inputChange} value={email} id="email" name="email" type="email" />
